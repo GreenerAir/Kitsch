@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Existing permissions -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <application
+        android:allowBackup="true"
+        android:attributionTags="@string/attribution_tag"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kitsch"
+        tools:replace="android:attributionTags"
+        tools:targetApi="31">
+
+        <service
+            android:name=".mainFragments.MusicService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".messages.chatModel.ChatActivity" />
+        <activity
+            android:name=".wardrobeotherpov.WardrobeOtherPovActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Kitsch" />
+        <activity
+            android:name=".search.OthersPovUtilities.ProfileOtherPovActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wardrobe.categoriesW.AccessoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wardrobe.categoriesW.BottomsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wardrobe.categoriesW.ShoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wardrobe.categoriesW.TopsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wardrobe.categoriesW.OuterwearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wardrobe.categoriesW.SportswearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wardrobe.UploadWardrobeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.ProfileSettingsList"
+            android:exported="false" />
+        <activity
+            android:name=".profile.Settings.ProtocolsSettings"
+            android:exported="false" />
+        <activity
+            android:name=".profile.Settings.AccountDataSettings"
+            android:exported="false" />
+        <activity
+            android:name=".mainFragments.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".initiation.LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".initiation.SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".initiation.LoadingStart"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

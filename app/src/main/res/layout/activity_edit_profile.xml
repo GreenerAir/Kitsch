@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilepage_wallpaper"
+    tools:context=".profile.EditProfileActivity">
+
+    <!-- Back Button at the top -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Back" />
+
+    <!-- ScrollView to make all content accessible -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/backButton"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <!-- Main content container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="32dp"> <!-- Added padding at bottom for better scrolling -->
+
+            <!-- Banner Image Section -->
+            <ImageView
+                android:id="@+id/pfpBanner"
+                android:layout_width="match_parent"
+                android:layout_height="177dp"
+                android:layout_marginBottom="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a2" />
+
+            <!-- Change Banner Button -->
+            <Button
+                android:id="@+id/changeBannerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Change banner" />
+
+            <!-- Profile Picture Section -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pfpIcon"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a5" />
+
+            <!-- Change Profile Picture Button -->
+            <Button
+                android:id="@+id/changePfpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Change profile picture" />
+
+            <!-- Display Name Section -->
+            <EditText
+                android:id="@+id/NewNameDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFFFFF"
+                android:hint="New Username"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <!-- Save Button -->
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Save changes" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

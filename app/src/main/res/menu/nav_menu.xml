@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/notifs_icon"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profilepic_icon"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_newpost"
+            android:icon="@drawable/camera_icon"
+            android:title="New Post" />
+
+        <item
+            android:id="@+id/nav_wardrobe"
+            android:icon="@drawable/wardrobe_icon"
+            android:title="Wardrobe" />
+
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/baseline_message_24"
+            android:title="Messages" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon"
+            android:title="Search Users" />
+
+
+    </group>
+
+
+</menu>

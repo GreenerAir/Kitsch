@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753449208740",
+    "project_id": "kitsch-49c9e",
+    "storage_bucket": "kitsch-49c9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753449208740:android:178f763b8b850c02a00f31",
+        "android_client_info": {
+          "package_name": "com.k.kitsch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753449208740-13q5tuc0e6uh09vobcelm5sv1nr4d8sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIiJ4Mq3f5SKeWyCilOFyXm1KAxao0N6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753449208740-13q5tuc0e6uh09vobcelm5sv1nr4d8sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

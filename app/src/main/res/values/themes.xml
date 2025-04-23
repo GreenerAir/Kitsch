@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Kitsch" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">@drawable/backlaunch</item>
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryVariant">@color/purple</item>
+        <item name="android:statusBarColor">@color/purple</item>
+    </style>
+
+    <style name="Theme.Kitsch" parent="Base.Theme.Kitsch" />
+</resources>

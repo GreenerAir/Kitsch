@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wardrobepage_wallpaper"
+    android:orientation="vertical"
+    tools:context=".wardrobeotherpov.WardrobeOtherPovActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/backToProfileOtherPOVBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="BACK"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Tops Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="TOPS"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!-- Tops ImageButton -->
+                <ImageButton
+                    android:id="@+id/topsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Tops Button"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homepage_wallpaper" />
+            </LinearLayout>
+
+            <!-- Bottoms Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="BOTTOMS"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!-- Bottoms ImageButton -->
+                <ImageButton
+                    android:id="@+id/bottomsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Bottoms Button"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homepage_wallpaper" />
+            </LinearLayout>
+
+            <!-- Shoes Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="SHOES"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!-- Shoes ImageButton -->
+                <ImageButton
+                    android:id="@+id/shoesButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Shoes Button"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homepage_wallpaper" />
+            </LinearLayout>
+
+            <!-- Accessories Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="ACCESSORIES"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!-- Accessories ImageButton -->
+                <ImageButton
+                    android:id="@+id/accessoriesButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Accessories Button"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homepage_wallpaper" />
+            </LinearLayout>
+
+            <!-- Outerwear Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="OUTERWEAR"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!-- Accessories ImageButton -->
+                <ImageButton
+                    android:id="@+id/outerwearButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Outerwear Button"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homepage_wallpaper" />
+            </LinearLayout>
+
+            <!-- Sportswear Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="SPORTSWEAR"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <!-- Accessories ImageButton -->
+                <ImageButton
+                    android:id="@+id/sportswearButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Sportswear Button"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/homepage_wallpaper" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

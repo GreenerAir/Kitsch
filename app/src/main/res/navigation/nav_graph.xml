@@ -1,0 +1,20 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/NewPostFragment"
+        android:name="com.k.kitsch.postCarp.NewPostFragment"
+        android:label="New Post">
+
+        <action
+            android:id="@+id/action_NewPostFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.k.kitsch.mainFragments.HomeFragment"
+        android:label="Home" />
+</navigation>

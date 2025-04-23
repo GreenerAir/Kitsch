@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#FFBB86FC</color>
+    <color name="pink_pearl">#E2B3C2</color>
+    <color name="cetacean_blue">#0F143D</color>
+    <color name="indigo">#2D1E64</color>
+    <color name="regalia">#51367B</color>
+    <color name="rhythm">#766DA7</color>
+    <color name="jacarta">#3F2A52</color>
+    <color name="dark_blue_gray">#75619D</color>
+    <color name="french_plum">#710755</color>
+    <color name="wine">#4D0011</color>
+    <color name="dark_plum">#370000</color>
+    <color name="sangria">#7A0006</color>
+    <color name="carmine">#AA0F23</color>
+    <color name="gamboge">#D6A10E</color>
+    <color name="gargoyle_gas">#FBDA4B</color>
+    <color name="marigold">#E59D2C</color>
+    <color name="buff">#F3D58D</color>
+    <color name="yankee_blue">#132840</color>
+    <color name="deep_teal">#004A41</color>
+    <color name="emerald_splash">#0E7C71</color>
+    <color name="sea_green">#228664</color>
+    <color name="eton_blue">#91C9B3</color>
+    <color name="oxley">#69A06C</color>
+    <color name="apple">#6DBE47</color>
+
+
+    <color name="notification_follow">#BAA8D6</color>
+    <color name="notification_unfollow">#D4A8D6</color>
+    <color name="notification_new_post">#A8C7D6</color>
+    <color name="notification_comment">#A8AFD6</color>
+    <color name="notification_like">#C6E2DF</color>
+</resources>
